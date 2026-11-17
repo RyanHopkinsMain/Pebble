@@ -1,0 +1,11 @@
+[package]
+name = "pebble"
+version = "0.1.0"
+edition = "2021"
+description = "A small scripting language with closures: lexer, Pratt parser and tree-walking interpreter"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+debug = false
